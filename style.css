@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default styles for small screens (mobile-first) */
+
+body {
+  font-size: 16px;
+  background-color: #ffc000;
+  /* background-color: #946f00; */
+  font-family: 'Dela Gothic One', system-ui, cursive;
+  padding-bottom: 3rem;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 1.5rem;
+  color: #fff;
+  text-align: center;
+  /* font-size: 2.8rem; */
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.about {
+  width: 90%;
+  margin: 0 auto;
+  /* margin: 3rem 0 3rem 0; */
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Open Sans';
+}
+.faq {
+  margin-top: 2em;
+}
+.faqHeading {
+  color: #fff;
+  /* color: #545454; */
+  font-size: 1em;
+  text-align: center;
+  margin-top: 0em;
+  /* margin-bottom: 1em; */
+  font-weight: 600;
+}
+
+.faqAnswer {
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+  /* color: #545454; */
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.link,
+a {
+  text-align: center;
+  /* font-size: 1.2rem; */
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+.linkText {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.countdown {
+  text-align: center;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  color: #fff;
+  /* font-size: 1.2rem; */
+  margin-bottom: 0.5rem;
+}
+#countdown {
+  text-align: center;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  color: #fff;
+  /* font-size: 1.2rem; */
+}
+
+.img {
+  text-align: center;
+  margin: 1em 0 0em 0;
+  /* height: auto; */
+}
+/* Media query for small screens (mobile) */
+@media (min-width: 320px) {
+  body {
+    font-size: 16px; /* You can keep the same font size for small screens */
+  }
+}
+
+/* Media query for medium screens (tablets) */
+@media (min-width: 725px) {
+  body {
+    font-size: 26px; /* Increase font size for tablets */
+  }
+
+  .container {
+    max-width: 725px; /* Adjust container width for tablets */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 30px; /* Increase padding for tablets */
+  }
+}
+
+/* Media query for large screens (desktops) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 36px; /* Increase font size for desktops */
+  }
+
+  .container {
+    max-width: 1024px; /* Adjust container width for desktops */
+    padding: 40px; /* Increase padding for desktops */
+  }
+}
+
+/* Media query for extra-large screens (big screens) */
+@media (min-width: 1440px) {
+  body {
+    font-size: 56px; /* Increase font size for big screens */
+  }
+
+  .container {
+    max-width: 1440px; /* Adjust container width for big screens */
+    padding: 50px; /* Increase padding for big screens */
+  }
+}
